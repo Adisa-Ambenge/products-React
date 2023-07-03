@@ -36,8 +36,9 @@ const Home = () =>{
             <h3>{product.title}</h3>
             <p>{product.price}</p>
             <p>{product.discountPercentage}</p>
-            <Link to={`/Products/${product.id}`} className="button">
+            <Link to={`/ProductDetails/${product.id}`} className="button">
           <button type="submit" className="viewMore">Add to cart</button>
+          
         </Link>
             </div>
         
